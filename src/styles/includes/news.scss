@@ -246,11 +246,19 @@
   grid-area: fourth;
   width: 369px;
   margin-bottom: 30px;
-  margin-right: 30px;
+
   @include flex-end;
   flex-direction: column;
   color: #ffffff;
   background-color: #F95A59;
+
+  @media screen and (min-width: 768px) {
+    margin-right: 30px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    margin-right: 0px;
+  }
 
   &:hover {
     background-color: #fff;
