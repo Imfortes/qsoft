@@ -53,7 +53,7 @@ function renderCards(data) {
                     </div>
                     
                     <a class="goods__list-item-btn">
-                        <img src="../images/.basket.svg" alt="">
+                        <img src="./images/.basket.svg" alt="">
                     </a>
                     
                 </div>
