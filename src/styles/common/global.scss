@@ -1,0 +1,25 @@
+body {
+  min-width: 400px;
+  width: 100vw;
+  font-family: 'Roboto', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  cursor: url("../images/cursor.svg"), auto;
+}
+
+input,
+button {
+  cursor: url("../images/cursor.svg"), auto;
+}
+
+.news__list-item,
+.partners__list-item {
+  cursor: url("../images/cursor.svg"), auto;
+}
